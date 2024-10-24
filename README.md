@@ -1,3 +1,6 @@
+### NAME : DEEPAK
+### REG N0 : 24901065
+### EXPERIMENT 1 : STUDY OF LOGIC GATES
 ### study-of-basic-gates
 
 **AIM:** 
@@ -66,13 +69,26 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
- 
+
+
+ module logicgates(a,b,notgate,andgate,orgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output notgate,andgate,orgate,nandgate,norgate,xorgate,xnorgate;
+not(notgate,a);
+and(andgate,a,b);
+or(orgate,a,b);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
+endmodule
 **Logic symbol & Truthtable**
 
 **RTL realization Output:** 
+![Screenshot 2024-10-24 144507](https://github.com/user-attachments/assets/b5df0f9d-1392-4f03-af3e-361738338c52)
 
 **RTL**
+![waveform](https://github.com/user-attachments/assets/f155071a-2e5b-439e-8473-2017a54ea647)
 
 **Result:**
 
